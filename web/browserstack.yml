@@ -1,0 +1,19 @@
+userName: USER
+accessKey: KEY
+
+projectName: BrowserStack Samples 
+buildName: browserstack build
+buildIdentifier: '#${BUILD_NUMBER}'
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+parallelsPerPlatform: 1
+browserstackLocal: true
+debug: false
+networkLogs: false
+consoleLogs: errors
+testObservability: true
